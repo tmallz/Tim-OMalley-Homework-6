@@ -84,13 +84,11 @@ function displayUvIndex(dataParamUv){
     uvIndexEl.textContent = dataParamUv.value;
 }
 
-function makeWeatherFetch(urlNameParam){
-    
+function makeWeatherFetch(urlNameParam){    
     fetch(urlNameParam)
     .then(function (response) {
       if (response.ok) {
         response.json().then(function (data) {
-          console.log(data);
           displayCurrentWeather(data);
           longitude = data.coord.lon;
           latitude = data.coord.lat;
@@ -106,13 +104,11 @@ function makeWeatherFetch(urlNameParam){
     });
 }
 
-function makeUvIndexFetch(urlNameParam){
-    
+function makeUvIndexFetch(urlNameParam){ 
     fetch(urlNameParam)
     .then(function (response) {
       if (response.ok) {
         response.json().then(function (data) {
-          console.log(data);
           displayUvIndex(data);
         });
       } else {
@@ -124,6 +120,7 @@ function makeUvIndexFetch(urlNameParam){
     });
 }
 
+//set up to run this with a loop then the nesting didn't work right so we have this :/
 function displayForecast(forecastDataParam){
   var tempConditions = forecastDataParam.list;
   forecastDateArray[0].textContent = tempConditions[0].dt_txt;
@@ -148,7 +145,6 @@ function makeForecastFetch(forecastUrlParam){
   .then(function (response) {
     if (response.ok) {
       response.json().then(function (data) {
-        console.log(data);
         displayForecast(data);
       });
     } else {
@@ -182,11 +178,13 @@ var handleformsubmit = function(event){
 }
 
 var handleButtonSubmit = function(event){
-    // event.preventDefault();
-    // var buttonName = event.target.closest('span').value;
-    // console.log(buttonName);
-    // var newUrlName = getSearchName(buttonName);
-    // makeWeatherFetch(newUrlName);
+    event.preventDefault();
+    var buttonName = event.target.closest('span').innerText;
+    buttonName.split().join('+');
+    var newUrlName = getWeatherFetch(buttonName);
+    var newForecastURL = getForecastFetch(buttonName);
+    makeWeatherFetch(newUrlName);
+    makeForecastFetch(newForecastURL);
 }
 
 init();
