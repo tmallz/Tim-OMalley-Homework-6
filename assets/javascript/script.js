@@ -39,17 +39,17 @@ var forecastHumidArray =[forecastHumidEl1, forecastHumidEl2, forecastHumidEl3, f
 
 
 function getWeatherFetch(cityNameParam){
-   var weatherUrl = "http://api.openweathermap.org/data/2.5/weather?q=" + cityNameParam + "&units=imperial&appid=42a22477232e5d6f0ba0202c57096ead";
+   var weatherUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + cityNameParam + "&units=imperial&appid=42a22477232e5d6f0ba0202c57096ead";
    return weatherUrl;
 }
 
 function getForecastFetch(cityNameParam){
-    var forecastUrl = "http://api.openweathermap.org/data/2.5/forecast?q=" + cityNameParam + "&units=imperial&appid=42a22477232e5d6f0ba0202c57096ead";
+    var forecastUrl = "https://api.openweathermap.org/data/2.5/forecast?q=" + cityNameParam + "&units=imperial&appid=42a22477232e5d6f0ba0202c57096ead";
     return forecastUrl;
 }
 
 function getUvIndexFetch(latParam, longParam){
-    var uvIndexUrl = "http://api.openweathermap.org/data/2.5/uvi?lat=" + latParam + "&lon=" + longParam + "&appid=42a22477232e5d6f0ba0202c57096ead";
+    var uvIndexUrl = "https://api.openweathermap.org/data/2.5/uvi?lat=" + latParam + "&lon=" + longParam + "&appid=42a22477232e5d6f0ba0202c57096ead";
     return uvIndexUrl;
 }
 
