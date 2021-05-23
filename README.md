@@ -41,7 +41,7 @@ This app was designed to provide user with an interactive weather dashboard. The
 
  
 - Page after search (mobile)
-- 
+
 ![image](https://user-images.githubusercontent.com/61262154/119266664-51264480-bbb1-11eb-9257-94ac8bcff956.png)
 
 ![image](https://user-images.githubusercontent.com/61262154/119266684-5daa9d00-bbb1-11eb-9f9b-a86ed53da1e8.png)
