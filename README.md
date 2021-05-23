@@ -26,21 +26,26 @@ This app was designed to provide user with an interactive weather dashboard. The
 ## Screenshots of the Website
 
 - Page on load
+
 ![image](https://user-images.githubusercontent.com/61262154/119266551-db21dd80-bbb0-11eb-8d84-0c5f48410210.png)
 
 - Page after search
+
 ![image](https://user-images.githubusercontent.com/61262154/119266581-fb519c80-bbb0-11eb-8105-b3b24a46f46b.png)
 
 - Page on load (mobile)
+
  ![image](https://user-images.githubusercontent.com/61262154/119266627-2b993b00-bbb1-11eb-97ba-9558dc368072.png)
+ 
  ![image](https://user-images.githubusercontent.com/61262154/119266697-69965f00-bbb1-11eb-81c9-7ee7625a5404.png)
 
  
 - Page after search (mobile)
 ![image](https://user-images.githubusercontent.com/61262154/119266664-51264480-bbb1-11eb-9257-94ac8bcff956.png)
+
 ![image](https://user-images.githubusercontent.com/61262154/119266684-5daa9d00-bbb1-11eb-9f9b-a86ed53da1e8.png)
 
 ## Links
 
-gitHub repository: https://github.com/tmallz/Tim-OMalley-Homework-6
-deployed website: https://tmallz.github.io/Tim-OMalley-Homework-6/
+- gitHub repository: https://github.com/tmallz/Tim-OMalley-Homework-6
+- deployed website: https://tmallz.github.io/Tim-OMalley-Homework-6/
