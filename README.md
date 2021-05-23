@@ -55,7 +55,7 @@ This app was designed to provide user with an interactive weather dashboard. The
 
 MIT License
 
-Copyright (c) 2021 Green Genie
+Copyright (c) 2021 Tim O'Malley
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
